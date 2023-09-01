@@ -50,5 +50,8 @@ export function reducer(
       };
       localStorageStateYaz(s10chLocalStorageKey, deleteNot);
       return deleteNot;
+
+    default:
+      return state;
   }
 }
